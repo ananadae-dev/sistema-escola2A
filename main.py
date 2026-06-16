@@ -229,7 +229,7 @@ def exibir_boletim(aluno):
 # ------------------------------------------------------------
 
 # Função 26 - Converte temperatura de Celsius para Fahrenheit
-# 🐛 BUG: a fórmula está errada
+ a fórmula está errada
 def celsius_para_fahrenheit(celsius):
     """Converte graus Celsius para Fahrenheit. Fórmula: (C * 9/5) + 32"""
     return (celsius * 5 / 9) + 32  # BUG: deveria ser (celsius * 9/5) + 32
