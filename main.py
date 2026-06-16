@@ -253,7 +253,7 @@ def classificar_imc(imc):
         return "Obesidade"
 
 # Função 29 - Calcula o troco de uma compra
-# 🐛 BUG: o cálculo do troco está invertido
+ o cálculo do troco está invertido
 def calcular_troco(valor_pago, valor_produto):
     """Retorna o troco da compra."""
     troco = valor_produto - valor_pago  # BUG: deveria ser valor_pago - valor_produto
