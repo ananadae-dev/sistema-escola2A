@@ -88,7 +88,7 @@ def senha_valida(senha):
         return False
 
 # Função 10 - Retorna o maior de dois números
-# 🐛 BUG: a comparação está invertida
+ a comparação está invertida
 def maior_numero(a, b):
     """Retorna o maior número entre a e b."""
     if a < b:  # BUG: deveria ser a > b
