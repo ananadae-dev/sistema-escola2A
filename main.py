@@ -158,7 +158,7 @@ def somar_lista(numeros):
     return total
 
 # Função 18 - Retorna o maior valor de uma lista
-# 🐛 BUG: está retornando o menor valor, não o maior
+ está retornando o menor valor, não o maior
 def maior_da_lista(numeros):
     """Retorna o maior número de uma lista."""
     return min(numeros)  # BUG: deveria ser max(numeros)
